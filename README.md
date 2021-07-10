@@ -1,4 +1,5 @@
-# web-platform-zyrxyo
+Shadow-DOM Demo
+*
+none of the code inside a shadow DOM can affect anything outside it, allowing for handy encapsulation.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-zyrxyo)
 
