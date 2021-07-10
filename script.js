@@ -13,15 +13,15 @@ class CvvInfo extends HTMLElement {
     const text = this.getAttribute('data-text');
     info.textContent = text;
 
-    let imgUrl;
+    let imageUrl;
     if (this.hasAttribute('img')) {
-      imgUrl = this.getAttribute('img');
+      imageUrl = this.getAttribute('img');
     } else {
       imageUrl = 'assets/default.png';
     }
 
     const img = document.createElement('img');
-    img.src = imgUrl;
+    img.src = imageUrl;
     icon.appendChild(img);
 
     const style = document.createElement('style');
